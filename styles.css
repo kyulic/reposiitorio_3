@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,500;1,400;1,500;1,700&family=Fraunces:wght@700&family=Lexend+Deca:wght@400;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+:root{
+    --Softred: hsl(10, 79%, 65%);
+--Cyan: hsl(186, 34%, 60%);
+
+--Darkbrown: hsl(25, 47%, 15%);
+--Mediumbrown: hsl(28, 10%, 53%);
+--Cream: hsl(27, 66%, 92%);
+--Verypaleorange: hsl(33, 100%, 98%);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Cream);
+    padding: 1rem;
+
+
+}
+.boxs{
+    max-width: 500px;  
+    width: 100%;
+
+
+}
+
+.box_1{
+    display: flex;
+    gap: 5rem;
+    padding: 1rem;
+    margin: 0.5rem;
+    color: var(--Cream);
+    justify-content: space-between;
+
+    background-color: var(--Softred);
+    border-radius: 0.5rem;
+
+
+}
+.box_1 p:nth-child(2) {
+    
+    font-size: 1.7rem;
+    
+}
+.box_2{
+    background-color: var(--Verypaleorange);
+    gap: 1rem;
+    padding: 1rem;
+    margin: 0.5rem;    
+    border-radius: 0.5rem; 
+}
+
+.box_contenido{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.box_2 h2{
+    justify-content:center ;
+    color: var(--Darkbrown);
+    padding: 1rem;
+}
+.box_precio{
+    position:relative;
+    height:-500px;
+   
+}
+.box_precio p:nth-child(1){
+    
+    color: var(--Mediumbrown);
+    
+    
+}
+
+.box_precio p:nth-child(2){
+    font-size: 1.7rem;
+    font-weight: bold;
+    
+}
+
+.box_porcentaje p:nth-child(2){
+    color: var(--Mediumbrown);
+    text-align: end;
+   
+    
+}
+.box_porcentaje p:nth-child(1){
+    
+    text-align: end;
+    
+    
+}
+
+
